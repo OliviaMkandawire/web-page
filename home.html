@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="design.css"/>
+    </head>
+    <body>
+        <div class="navigation">
+            <div class="logo"><a href="#" class="logo">Logo</i></a>
+            </div>
+            <div class="links" id="links">
+                <a href="#home" class="drop">Home</a>
+                <a href="#about" class="drop">About</a>
+                <a href="#services" class="drop">Services</a>
+                <a href="#form" class="drop">Contact</a>
+            </div>
+            <a href="#" class="menu right" onclick="toggleNavigation()"><i class="fa fa-bars"></i></a>
+        </div>
+        <div class="container">
+            <section id="home">
+                <h1>HELLO, I'M OLIVIA.</h1>
+                <br>
+                <h2>A full stack developer</h2>
+                <h2>Located in Malawi, Blantyre.</h2>
+            </section>
+            <section id="about">
+                <div class="pic"> </div>
+                <div class="detail">
+                    <p> 
+                            Hey there! I'm Olivia Mkandawire, a long-time front-end and back-end software engineer from Malawi.
+                            I've spent the last 10 years hand-crafting beautiful and innovative websites and applications.
+                            <br>
+                            <br>
+                            Over the years, I've learned a spaceship full of knowledge about what it takes to create lucrative websites for my clients that solve problems.
+                            I've put everything I know into the Liftoff course to help you grow an audience and start making money as a digital creator.
+                            <br>
+                            <br>
+                            I'm excited to make the leap and continue refining my skills with the right company.
+                            Drop me a line and/or your favourite restaurant in Blantyre in the contact form below. 
+                    </p>
+                </div>
+            </section>
+
+            <section id="services">
+                <h1>Services</h1>
+                <div class="services-container">
+                    <div class="service">
+                        <i class="fa fa-code"></i>
+                        <h2>Front-end Development</h2>
+                        <p>I specialize in crafting beautiful and responsive user interfaces using HTML, CSS, and JavaScript. I ensure that websites are visually appealing and user-friendly across various devices and browsers.</p>
+                    </div>
+                    <div class="service">
+                        <i class="fa fa-database"></i>
+                        <h2>Back-end Development</h2>
+                        <p>I create server-side applications and APIs using popular technologies like Node.js, Python, or Ruby on Rails. I ensure seamless data processing, security, and scalability for your web applications.</p>
+                    </div>
+                    <div class="service">
+                        <i class="fa fa-cogs"></i>
+                        <h2>Full Stack Web Development</h2>
+                        <p>I build end-to-end web applications that integrate front-end and back-end technologies to provide comprehensive solutions for your business needs.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <section id="form">
+                    <div class="contact-form">
+                      <h1>Contact Us</h1>
+                      <form>
+                        <div class="form-group">
+                          <label for="name">Name:</label>
+                          <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email:</label>
+                          <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="message">Message:</label>
+                          <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <div class="form-group">
+                          <button type="submit">Send Message</button>
+                        </div>
+                      </form>
+                    </div>
+                  </section>
+            </section>
+        </div>
+        <footer>
+            <p>&copy; 2023 OLIVIA. All rights reserved.</p>
+            <p>Contact Information: oliviamkandawire@gmail.com</p>
+            <p>Phone: +265 996 352 102</p>
+            <p>Address: Old Naperi, Blantyre, Malawi</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
